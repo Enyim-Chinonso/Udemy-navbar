@@ -1,0 +1,46 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.fas.fa-search {
+    font-size: 10px;
+}
+.material-icons {
+    font-size: 10px;
+}
+.fas.fa-globe {
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+    /* font-family: 'poppins'; */
+}
+
+#search-bar{
+display: flex;
+justify-content: flex-start;
+height: 30px;
+width: 400px;
+background-color: rgb(247, 249, 250);
+align-items: center;
+gap: 10px;
+font-size: small;
+border: solid grey;
+border-radius: 30px;
+padding-left: 10px;
+
+}
+
+#btn{
+    background-color: black;
+    color: white;
+}
